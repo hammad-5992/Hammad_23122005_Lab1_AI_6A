@@ -50,7 +50,7 @@ The agent checks a customer's booking status and responds accordingly.
 
 ### Python Code
 
-\`\`\`python
+```python
 booking_status = "Confirmed"
 passenger = "Sara"
 destination = "Lahore"
@@ -61,7 +61,7 @@ elif booking_status == "Pending":
     print(f"Booking for {passenger} is still pending. Please wait for confirmation.")
 else:
     print(f"Booking for {passenger} was cancelled. Please contact support to rebook.")
-\`\`\`
+```
 
 ---
 
